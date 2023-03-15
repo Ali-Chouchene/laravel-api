@@ -1,0 +1,39 @@
+#welcome {
+    background-image: url(../../public/storage/project/bg.jpg);
+    object-fit: fill;
+    background-size: auto;
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    margin: 0 auto;
+
+    i {
+        color: black;
+
+        &:hover {
+            color: blue;
+        }
+    }
+
+    .btn-blue {
+        background-color: rgb(71, 68, 255);
+        color: white;
+        padding: 7px 1rem;
+
+        &:hover {
+            background-color: rgb(57, 56, 139);
+        }
+    }
+
+}
+
+#header {
+    height: 10vh;
+    width: 100%;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+
+}
